@@ -8,7 +8,7 @@ public class A10_ArmStrong {
 		int sum=0;
 		int org=num;
 		
-		while(num>0) {
+		while(num!=0) {
 			int digit=num%10;
 			sum=sum+(digit*digit*digit);
 			num=num/10;
